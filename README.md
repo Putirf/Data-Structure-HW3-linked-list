@@ -1,12 +1,40 @@
-# DataSructure_HW2_Shogi
-# DataSructure_HW2_Shogi
-# DataSructure_HW2_Shogi
-# Vue_Todolist
-# Vue_Todolist
-# DataSructure_HW2_Shogi
-# DataSructure_HW2_Shogi
-# Data-Structure-HW3-linked-list
-# Data-Structure-HW3-linked-list
-# Data-Structure-HW3-linked-list
-# Data-Structure-HW3-linked-list
-# Data-Structure-HW3-linked-list
+# 資結作業三
+
+## 簡介
+可以進行將棋遊戲（缺少升變及復活），且提供讀檔覆盤功能。
+
+## 用法
+### 初始頁面
+、、、
+、、、
+* 在cmd中輸入-n開啟新遊戲
+* 在cmd中輸入-s file.txt儲存該場遊戲(不要以GAME為檔名，檔案會被覆蓋掉)
+* 在cmd中輸入-l file.txt讀取該場遊戲
+* !!注意!!-n必須在-s file.txt後否則不會記錄
+
+### 新遊戲
+
+* 預設為X先手，先輸入要移動之棋子的段（行）、筋（列），再輸入要去的位置（1～9）
+若是輸入符合規則，則棋子移動並換對方移動
+排版還沒調整好，請直接輸入即可
+注意：請輸入數字就好，輸入其他文字會導致程式卡死
+
+* 輸入0 ：返回上一動，例如正在輸入要去的段，此時輸入0則會退回輸入要移動的筋。若是在輸入要移動的段輸入0，則會進行悔棋並換對方移動。
+* 輸入-1 ：投降並退出
+
+
+### 開啟舊檔
+* 輸入要開啟的檔案名稱.txt
+* 輸入f：下一步
+* 輸入b：上一步
+* 輸入0 ：退出
+* 若是已經是最一開始或是最後一步，則不會有反應，屬於正常狀況
+
+### 參考資料
+[程式人生](https://www.796t.com/),
+[CSDN](https://www.csdn.net/),
+[Stackoverflow](https://stackoverflow.com/),
+[IT邦幫忙](https://ithelp.ithome.com.tw/m/),
+.
+.
+.
